@@ -1,3 +1,5 @@
+# *This Fork is an update to original Ballpark to fix python 3.10 compatibility only, all credits to original creator(s)*
+
 # Ballpark
 
 When people think of human-readable numbers, they think of rounding to two decimal places and adding a thousands separator. 12,214.17 is already quite an improvement over 12214.16666667. But standard formats for human-readable numbers still have various flaws:

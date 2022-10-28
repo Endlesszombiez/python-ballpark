@@ -1,12 +1,11 @@
 from setuptools import find_packages, setup
 
-setup(name='ballpark',
-    description='Better human-readable numbers.',
+setup(name='ballpark-fixed',
+    description='Better human-readable numbers. Forked and fixed from Stijn',
     long_description=open('README.rst').read(),
-    author='Stijn Debrouwere',
-    author_email='stijn@debrouwere.org',
-    url='https://github.com/debrouwere/python-ballpark/',
-    download_url='https://www.github.com/debrouwere/python-ballpark/tarball/master',
+    author='Endlessz',
+    author_email='lckrep@protonmail.com',
+    url='https://github.com/Endlesszombiez/python-ballpark',
     version='1.4.0',
     license='ISC',
     packages=find_packages(),
@@ -24,6 +23,7 @@ setup(name='ballpark',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.4'
+        'Programming Language :: Python :: 3.10',
         ],
     )
