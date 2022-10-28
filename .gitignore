@@ -89,3 +89,8 @@ target/
 # pyenv
 .python-version
 
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/python-ballpark.iml
+.idea/modules.xml
+.idea/workspace.xml
