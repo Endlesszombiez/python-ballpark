@@ -82,7 +82,7 @@ def repel(value):
 def unwrap(fn):
     @functools.wraps(fn)
     def unwrapped_function(values, *vargs, **kwargs):
-        scalar = not isinstance(values, collections.Iterable)
+        scalar = not isinstance(values, collections.abc.Iterable)
 
         if scalar:
             values = [values]
